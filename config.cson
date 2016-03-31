@@ -1,15 +1,27 @@
 "*":
+  "atom-beautify":
+    _analyticsUserId: "a43c63de-33b4-4da8-8205-032c93100942"
   core:
+    disabledPackages: [
+      "minimap"
+    ]
+    projectHome: "/Users/ia/dev"
     themes: [
       "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "monokai"
     ]
   editor:
-    fontSize: 11
+    fontSize: 10
     invisibles: {}
   "exception-reporting":
     userId: "3c1f7771-4918-192c-ed04-f6a413acbfc3"
+  "git-projects":
+    rootPath: "/Users/ia/dev"
+  "linter-jshint":
+    node: true
+    strict: false
   minimap:
+    displayMinimapOnLeft: true
     plugins:
       cursorline: true
       cursorlineDecorationsZIndex: 0

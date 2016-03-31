@@ -1,1 +1,50 @@
-{}
+betta:
+  title: "Betta"
+  paths: [
+    "/Users/ia/dev/betta"
+  ]
+areteh:
+  title: "Areteh"
+  paths: [
+    "/Users/ia/dev/areteh"
+  ]
+snowranger:
+  title: "Snowranger"
+  paths: [
+    "/Users/ia/dev/snowranger"
+  ]
+rstacks:
+  title: "Rstacks"
+  paths: [
+    "/Users/ia/dev/rstacks"
+  ]
+acronymus:
+  title: "Acronymus"
+  paths: [
+    "/Users/ia/dev/acronymus"
+  ]
+anagramatizer:
+  title: "Anagramatizer"
+  paths: [
+    "/Users/ia/dev/anagramatizer"
+  ]
+arcadia:
+  title: "Arcadia"
+  paths: [
+    "/Users/ia/dev/randori/arcadia"
+  ]
+toolkit:
+  title: "Toolkit"
+  paths: [
+    "/Users/ia/dev/is-toolkit"
+  ]
+rabbitxo:
+  title: "Rabbitxo"
+  paths: [
+    "/Users/ia/dev/rabbitxo"
+  ]
+dotfiles:
+  title: "Dotfiles"
+  paths: [
+    "/Users/ia/dev/dotfiles"
+  ]
