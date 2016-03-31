@@ -1,0 +1,255 @@
+{
+  "name": "autocomplete-html-entities",
+  "author": {
+    "name": "Lee Dohm",
+    "email": "lee@lee-dohm.com"
+  },
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "An autocomplete-plus 2.0 provider for HTML entities.",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "HTML",
+    "entities"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-dohm/autocomplete-html-entities.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fuzzaldrin": "^2.1.0",
+    "season": "^5.3.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# autocomplete-html-entities\n\nAn Atom [autocomplete-plus][autocomplete-plus] 2.0 provider for HTML entities.\n\n## Copyright\n\nCopyright &copy; 2015 by [Lee Dohm](http://www.lee-dohm.com). See [LICENSE](https://raw.githubusercontent.com/lee-dohm/autocomplete-html-entities/master/LICENSE.md) for details.\n\n[autocomplete-plus]: https://atom.io/packages/autocomplete-plus\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/lee-dohm/autocomplete-html-entities/issues"
+  },
+  "homepage": "https://github.com/lee-dohm/autocomplete-html-entities#readme",
+  "_id": "autocomplete-html-entities@0.1.0",
+  "_shasum": "3d560ab8ffbd496bdc7002009c4f49ece508df32",
+  "_resolved": "file:../d-116231-13488-1xhbqal/package.tgz",
+  "_from": "../d-116231-13488-1xhbqal/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "fuzzaldrin",
+        "version": "2.1.0",
+        "path": "node_modules/fuzzaldrin/lib/fuzzaldrin.js"
+      },
+      {
+        "name": "season",
+        "version": "5.3.0",
+        "path": "node_modules/season/lib/cson.js"
+      },
+      {
+        "name": "cson-parser",
+        "version": "1.0.9",
+        "path": "node_modules/season/node_modules/cson-parser/lib/cson-parser.js"
+      },
+      {
+        "name": "coffee-script",
+        "version": "1.9.0",
+        "path": "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/coffee-script.js"
+      },
+      {
+        "name": "fs-plus",
+        "version": "2.8.1",
+        "path": "node_modules/season/node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "async",
+        "version": "0.2.10",
+        "path": "node_modules/season/node_modules/fs-plus/node_modules/async/lib/async.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.3.5",
+        "path": "node_modules/season/node_modules/fs-plus/node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.2.8",
+        "path": "node_modules/season/node_modules/fs-plus/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.6",
+        "path": "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      },
+      {
+        "name": "optimist",
+        "version": "0.4.0",
+        "path": "node_modules/season/node_modules/optimist/index.js"
+      },
+      {
+        "name": "wordwrap",
+        "version": "0.0.3",
+        "path": "node_modules/season/node_modules/optimist/node_modules/wordwrap/index.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/main.coffee",
+        "lib/provider.coffee"
+      ],
+      ".js": [
+        "node_modules/fuzzaldrin/lib/filter.js",
+        "node_modules/fuzzaldrin/lib/fuzzaldrin.js",
+        "node_modules/fuzzaldrin/lib/matcher.js",
+        "node_modules/fuzzaldrin/lib/scorer.js",
+        "node_modules/season/lib/cson.js",
+        "node_modules/season/lib/csonc.js",
+        "node_modules/season/node_modules/cson-parser/lib/cson-parser.js",
+        "node_modules/season/node_modules/cson-parser/lib/parse.js",
+        "node_modules/season/node_modules/cson-parser/lib/stringify.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/browser.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/cake.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/coffee-script.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/command.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/grammar.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/helpers.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/index.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/lexer.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/nodes.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/optparse.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/parser.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/register.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/repl.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/rewriter.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/scope.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/lib/coffee-script/sourcemap.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/register.js",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/repl.js",
+        "node_modules/season/node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/async/lib/async.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/mkdirp/examples/pow.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/mkdirp/index.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/rimraf/bin.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/rimraf/rimraf.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore-min.js",
+        "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js",
+        "node_modules/season/node_modules/optimist/example/bool.js",
+        "node_modules/season/node_modules/optimist/example/boolean_double.js",
+        "node_modules/season/node_modules/optimist/example/boolean_single.js",
+        "node_modules/season/node_modules/optimist/example/default_hash.js",
+        "node_modules/season/node_modules/optimist/example/default_singles.js",
+        "node_modules/season/node_modules/optimist/example/divide.js",
+        "node_modules/season/node_modules/optimist/example/line_count.js",
+        "node_modules/season/node_modules/optimist/example/line_count_options.js",
+        "node_modules/season/node_modules/optimist/example/line_count_wrap.js",
+        "node_modules/season/node_modules/optimist/example/nonopt.js",
+        "node_modules/season/node_modules/optimist/example/reflect.js",
+        "node_modules/season/node_modules/optimist/example/short.js",
+        "node_modules/season/node_modules/optimist/example/string.js",
+        "node_modules/season/node_modules/optimist/example/usage-options.js",
+        "node_modules/season/node_modules/optimist/example/xup.js",
+        "node_modules/season/node_modules/optimist/index.js",
+        "node_modules/season/node_modules/optimist/node_modules/wordwrap/example/center.js",
+        "node_modules/season/node_modules/optimist/node_modules/wordwrap/example/meat.js",
+        "node_modules/season/node_modules/optimist/node_modules/wordwrap/index.js"
+      ],
+      ".json": [
+        "node_modules/fuzzaldrin/package.json",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/bower.json",
+        "node_modules/season/node_modules/cson-parser/node_modules/coffee-script/package.json",
+        "node_modules/season/node_modules/cson-parser/package.json",
+        "node_modules/season/node_modules/fs-plus/node_modules/async/component.json",
+        "node_modules/season/node_modules/fs-plus/node_modules/async/package.json",
+        "node_modules/season/node_modules/fs-plus/node_modules/mkdirp/package.json",
+        "node_modules/season/node_modules/fs-plus/node_modules/rimraf/package.json",
+        "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/package.json",
+        "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/package.json",
+        "node_modules/season/node_modules/fs-plus/package.json",
+        "node_modules/season/node_modules/optimist/node_modules/wordwrap/package.json",
+        "node_modules/season/node_modules/optimist/package.json",
+        "node_modules/season/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "fuzzaldrin": "^2.1.0",
+          "season": "^5.3.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/season/lib",
+          "node_modules/season"
+        ],
+        "dependencies": {
+          "cson-parser": "1.0.9",
+          "fs-plus": "2.x",
+          "optimist": "~0.4.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/season/node_modules/cson-parser/lib",
+          "node_modules/season/node_modules/cson-parser"
+        ],
+        "dependencies": {
+          "coffee-script": "1.9.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/season/node_modules/fs-plus/lib",
+          "node_modules/season/node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "underscore-plus": "1.x",
+          "mkdirp": "~0.3.5",
+          "rimraf": "~2.2.2",
+          "async": "~0.2.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus/lib",
+          "node_modules/season/node_modules/fs-plus/node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/season/node_modules/optimist/example",
+          "node_modules/season/node_modules/optimist",
+          "node_modules/season/node_modules/optimist/test/_",
+          "node_modules/season/node_modules/optimist/test"
+        ],
+        "dependencies": {
+          "wordwrap": "~0.0.2"
+        }
+      }
+    ]
+  }
+}

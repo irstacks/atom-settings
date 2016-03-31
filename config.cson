@@ -1,0 +1,27 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 11
+    invisibles: {}
+  "exception-reporting":
+    userId: "3c1f7771-4918-192c-ed04-f6a413acbfc3"
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      selection: true
+      selectionDecorationsZIndex: 0
+  "save-session":
+    dataSaveFolder: "/Users/ia/.atom/packages/save-session/projects"
+  welcome:
+    showOnStartup: false
